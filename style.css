@@ -1,0 +1,47 @@
+body {
+  background-color: #C2D7C8;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* 使body填滿整個視窗高度 */
+  margin: 0;
+}
+
+img{
+  height: 35px;
+  padding-right: 5px;
+}
+
+P{
+  color: #227B7A;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+canvas{
+  border: 3px solid #227B7A; 
+  border-radius: 10px;
+  width: 600px;
+  height: 600px;
+}
+
+.urii{
+  width: 100px;
+  height: 120px;
+}
+
+#webcam-container {
+  position: relative;
+}
+
+#label-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
